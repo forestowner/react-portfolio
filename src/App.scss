@@ -1,0 +1,18 @@
+$primary-color: #ffd700;
+@import 'animate.css';
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/Roboto-Regular.ttf') format('truetype'); 
+}
+@font-face {
+  font-family: 'Futura PT';
+  src: url('./assets/fonts/FuturaPT-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url('./assets/fonts/Merriweather-Regular.ttf') format('ttf');
+}
+input,
+textarea {
+  font-family: 'Futura PT';
+}

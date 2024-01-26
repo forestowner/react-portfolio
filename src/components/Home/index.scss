@@ -1,0 +1,43 @@
+.home-page{
+    .text-zone{
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 35%;
+        max-height: 90%;
+        z-index: 10;
+    }
+    
+    h1{
+        color: #f0ece1;
+        font-size: 40px;
+        margin: 0;
+        
+        font-weight: 50;
+        
+        img{
+            width: 50px; 
+            animation: floatAnimation 7s infinite, 
+          }
+          
+          @keyframes floatAnimation {
+            0% {
+              transform: translate(0, 0);
+              
+            }
+            50% {
+              transform: translate(0, 10px);
+            }
+            100% {
+              transform: translate(0, 0); 
+            }
+            }
+
+          
+    }
+    h2{
+        color: #080808;
+    }
+ 
+}
